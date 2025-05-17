@@ -3,15 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>:D</title>
+  <title>BOKS</title>
   <style>
     html, body {
   height: 100%;
-  width: 100%;
-  background-color: #000000;
-  background: radial-gradient(ellipse, #320001, #030000, #020000, #000000);
+  width: 100vw !important;
+padding: 0 !important;
+margin: 0 !important;
+  color: #e0e0e0;overflow: hidden;
+
+background-color: #020b1a;
+  background: linear-gradient(to top, #040308, #AD4a28, #dd723c, #fc7001, #dcb697, #9ba5ae, #3e5879, #020b1a);
   overflow: hidden;
 }
+
+
 
 .container {
   width: 100px;
@@ -41,9 +47,10 @@
   top: -100px;
   border-bottom: 15px solid rgba(0, 0, 0, 0.5);
 }
+
 .container .glass:after {
   width: 8px;
-  background: rgba(255, 255, 255, 0.636);
+  background: rgba(188, 255, 248, 0.194);
   content: '';
   position: absolute;
   height: 80px;
@@ -54,7 +61,7 @@
 }
 .container .glass:before {
   width: 8px;
-  background: rgba(255, 255, 255, 0.542);
+  background: rgba(234, 255, 252, 0.151);
   content: '';
   position: absolute;
   height: 15px;
@@ -63,27 +70,9 @@
   left: 10px;
   top: 280px;
 }
-.container .glow {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  border: 1px solid rgba(70, 2, 27, 0.328);
-  box-shadow: 0px 0px 10px #3d0117;
-  left: -40px;
-  top: -40px;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -moz-animation: glowing 2.5s ease-in-out infinite;
-  -webkit-animation: glowing 2.5s ease-in-out infinite;
-  animation: glowing 2.5s ease-in-out infinite;
-}
+
 .container .rose-petals > div {
-  background: #560418;
+  background: #045616;
   width: 45px;
   height: 80px;
   position: absolute;
@@ -96,11 +85,12 @@
   border-radius: 15px;
   left: 20px;
   top: -6px;
-  background: #650920;
+  background: radial-gradient(ellipse, #b80707, #750808, #ea2b55);
 }
 .container .rose-petals > div:nth-child(2), .container .rose-petals > div:nth-child(4), .container .rose-petals > div:nth-child(6) {
   border-radius: 0px 30px 0px 30px;
-  background: #530a1d;
+  background: radial-gradient(ellipse, #b80707, #750808, #ea2b55);
+
   left: 0;
   transform-origin: bottom right;
 }
@@ -117,7 +107,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 5;
-  background: #2e0101;
+  background: radial-gradient(ellipse, #2a0202, #140000, #490404, #350101);
   top: 10px;
   height: 70px;
   -moz-animation-delay: 2s;
@@ -132,7 +122,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 4;
-  background: #450202;
+  background: radial-gradient(ellipse, #790505, #5c0505, #490404, #350101);
   top: 10px;
   height: 70px;
   -moz-animation-delay: 2s;
@@ -147,7 +137,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 3;
-  background: #5d0404;
+  background: radial-gradient(ellipse, #790505, #5c0505, #490404, #350101);
   top: 5px;
   height: 75px;
   -moz-animation-delay: 2s;
@@ -162,7 +152,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 2;
-  background: #790a15;
+  background: radial-gradient(ellipse, #790505, #5c0505, #490404, #350101);
   top: 5px;
   height: 75px;
   -moz-animation-delay: 2s;
@@ -177,7 +167,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 1;
-  background: #830625;
+  background: radial-gradient(ellipse, #790505, #5c0505, #490404, #350101);
   top: "";
   height: "";
   -moz-animation-delay: 2s;
@@ -192,7 +182,7 @@
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 0;
-  background: #99062f;
+  background: radial-gradient(ellipse, #790505, #5c0505, #490404, #350101);
   top: "";
   height: "";
   -moz-animation-delay: 2s;
@@ -202,7 +192,7 @@
 .container .rose-leaves > div:nth-last-child(1) {
   width: 55px;
   height: 30px;
-  background: #033406;
+  background: radial-gradient(ellipse, #022e05, #063a07, #044d18);
   position: absolute;
   top: 60px;
   left: 15px;
@@ -215,13 +205,13 @@
   height: 230px;
   border: none;
   top: 80px;
-  background: #021102;
+  background: radial-gradient(ellipse, #022e05, #063a07, #044d18);
   left: 40px;
 }
 .container .thorns > div {
   width: 30px;
   height: 30px;
-  background: #066406;
+  background: radial-gradient(ellipse, #022e05, #063a07, #044d18);
   top: 100px;
   left: 10px;
 }
@@ -231,7 +221,7 @@
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #052418;
+  background: radial-gradient(ellipse, #022e05, #063a07, #044d18);
   content: "";
   position: absolute;
   left: -12px;
@@ -243,7 +233,7 @@
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #012b05;
+  background: radial-gradient(ellipse, #022e05, #063a07, #044d18);
   content: "";
   position: absolute;
   left: -11px;
@@ -544,21 +534,6 @@
     box-shadow: 0px 0px 60px #f594b8;
   }
 }
-@-moz-keyframes glowing {
-  50% {
-    box-shadow: 0px 0px 60px #5c0323;
-  }
-}
-@-ms-keyframes glowing {
-  50% {
-    box-shadow: 0px 0px 60px #7c061e;
-  }
-}
-@keyframes glowing {
-  50% {
-    box-shadow: 0px 0px 60px #420410;
-  }
-}
 
 @keyframes an {
   0% {
@@ -577,15 +552,6 @@
 }
 
 
-@keyframes an2 {
-      0% { scale: 0.9; }
-      30% {
-scale: 0.95;
-      }
-      50% { scale: 1; }
-      80% { scale: 0.95; }
-      100% {scale: 0.9; }
-    }
 
 #animat {
   animation: an 6s ease-in-out forwards;
@@ -595,13 +561,12 @@ scale: 0.95;
 }
 h2 {
       position: absolute;
-  font-family: cursive;
       top: 16%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 7vw;
       color: #6e0418;
-      animation: elegantFade 3s ease-in-out forwards, slowAppear 16s ease-out forwards, textPulse 3.2s ease-in-out infinite;
+      animation: elegantFade 3s ease-in-out forwards, slowAppear 16s ease-out forwards;
     }
 
     @keyframes textPulse {
@@ -619,14 +584,13 @@ h2 {
       0% { opacity: 0; transform: translate(-50%, -60%); }
       100% { opacity: 1; transform: translate(-50%, -50%); }
     }
-
+    
   
   </style>
 </head>
-<body>
-  <h2>Klo 16:30 Alfredin edessä?</h2>
+<body >
 
-  <section id="animat2">
+<section id="animat2">
   <div id="animat">
   <div class="container">
     <div class="glass"></div>
